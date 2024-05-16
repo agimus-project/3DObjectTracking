@@ -26,6 +26,7 @@ if (WIN32)
 endif ()
 
 # Used libraries
+find_package(OpenMP REQUIRED)
 find_package(Eigen3 3.3.2 REQUIRED)
 find_package(GLEW REQUIRED)
 if (UNIX)
